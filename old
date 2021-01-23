@@ -1,0 +1,44 @@
+
+// import (
+// 	/*
+// 	   typedef struct foo{
+// 	   int a;
+// 	   int b;
+// 	   int c;
+// 	   int d;
+// 	   int e;
+// 	   int f;
+// 	   } foo;
+// 	*/
+// 	"C"
+// )
+
+// func main() {
+// }
+
+// //export Foo
+// func Foo() C.foo {
+
+// 	foo := C.foo{}
+// 	// foo.a = C.int(t[0])
+// 	// foo.b = C.int(t[1])
+// 	// foo.c = C.int(t[2])
+// 	// foo.d = C.int(t[3])
+// 	// foo.e = C.int(t[4])
+// 	// foo.f = C.int(t[5])
+// 	return foo
+// }
+
+// WORKING !!!!!
+//libadd.go
+// package main
+
+// import "C"
+
+// //export add
+// func add() int {
+// 	return 2 + 3
+// }
+
+// func main() {
+// }
